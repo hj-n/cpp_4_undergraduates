@@ -16,6 +16,7 @@
     - Meta programming *using cpp template*
     - Multi-thread programming (Optional)
     - ployglot programming (Optional)
+    - Design Pattern (Optional)
 
 - Missing session
   - based on *Missing semester* course provided by MIT

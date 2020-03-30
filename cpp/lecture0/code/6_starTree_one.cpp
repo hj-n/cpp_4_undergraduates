@@ -4,13 +4,14 @@ using namespace std;
 
 int main() {
     /**
+     * Problem 6
      * Print this:
      *      *
             **
             ***
             ****
             *****
-     * hint : use double for- syntax and if-syntax
+     * hint : use double for-satement and if-statement
      */ 
 
     for(int i = 1; i <= 5; i++) {

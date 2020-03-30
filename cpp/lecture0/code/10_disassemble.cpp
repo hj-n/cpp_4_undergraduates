@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     /**
+     * Problem 10
      * INPUT: integer n, 1000 <= n <= 9999
      * OUTPUT: place value of each digit
      * ex) if an input is 5873, output should be:

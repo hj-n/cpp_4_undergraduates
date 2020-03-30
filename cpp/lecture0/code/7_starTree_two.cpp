@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     /**
+     * Problem 7
      * Print this:
      *      *****
              ****

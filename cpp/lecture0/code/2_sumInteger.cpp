@@ -10,6 +10,9 @@ int main() {
      * ex) if an input is 100, answer will be 5050
      * hint : use "for"-syntax!!
      */
+    int n;
+    cout << "INPUT: ";
+    cin >> n;
 
     return 0;
 }

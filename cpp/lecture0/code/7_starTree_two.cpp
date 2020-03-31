@@ -11,7 +11,7 @@ int main() {
               ***
                **
                 *
-     * hint : use double for- syntax and if-syntax
+     * hint : use double for-statement and if-statement
      */ 
 
     return 0;

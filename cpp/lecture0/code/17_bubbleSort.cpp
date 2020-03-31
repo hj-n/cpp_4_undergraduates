@@ -2,11 +2,6 @@
 
 using namespace std;
 
-void swapValue(int& a, int& b) {
-   // after the execution, variable a should have the original value of b
-   // and vice versa
-
-}
 
 int main() {
     /**
@@ -20,5 +15,8 @@ int main() {
      * limitation : use bubble sort!!
      * limitation : implement swapValue function
      */
+    int length;
+    cout << "Length: " << endl;
+    cin >> length;
 
 }

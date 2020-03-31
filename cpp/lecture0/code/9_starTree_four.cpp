@@ -15,7 +15,7 @@ int main() {
            *****
             ***
              *
-     * use maximum 2 for-syntax!!
+     * use maximum 2 for-statement!!
      */ 
     for(int i = 1; i <= 9; i++) {
         for(int j = 1; j <=9; j++) {

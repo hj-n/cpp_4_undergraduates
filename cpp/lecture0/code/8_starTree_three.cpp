@@ -11,7 +11,7 @@ int main() {
            *****
           *******
          *********
-        use maximum 2 for-syntax!!
+        use maximum 2 for-statement!!
      */ 
 
 

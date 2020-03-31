@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * Problem 12
+ * Problem 13
  * INPUT: two integer a, b
  * OUTPUT: a plus b
            a times b

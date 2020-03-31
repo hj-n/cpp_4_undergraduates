@@ -8,7 +8,7 @@ int multiplyMatrix(/* wirte */) {
 
 int main() {
     /**
-     * Problem 15
+     * Problem 16
      * INPUT: natural number n
      * OUTPUT: n-th fibonacci number
      * Limitation: use matrix method

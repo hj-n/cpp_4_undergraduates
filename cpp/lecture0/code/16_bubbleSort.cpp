@@ -8,7 +8,7 @@ void swap() {
 
 int main() {
     /**
-     * Problem 15
+     * Problem 16
      * perform bubble sort
      * INPUT: length of series, and the series
      * OUTPUT: sorted result of the series

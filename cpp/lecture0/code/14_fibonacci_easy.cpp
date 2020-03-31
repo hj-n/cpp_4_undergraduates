@@ -9,7 +9,7 @@ int fibonacci(int n) {
 
 int main() {
     /**
-     * Problem 12
+     * Problem 14
      * INPUT: natural number n
      * OUTPUT: n-th fibonacci number
      * Limitation: use recursion!!

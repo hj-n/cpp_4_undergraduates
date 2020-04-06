@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void multiplyMatrix(int** matrixA, int** matrixB, int** result) {
+void multiplyMatrix(int (*matrixA)[2], int (*matrixB)[2], int (*result)[2]) {
     /**
      * You can access the value of each variable using a[i][j] syntax
      * In this function, you need to multiply matrixA and matrixB and store

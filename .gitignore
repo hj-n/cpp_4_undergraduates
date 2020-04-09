@@ -3,3 +3,5 @@ form.pptx
 *.out
 *.answer.cpp
 test.cpp
+*.o
+*program

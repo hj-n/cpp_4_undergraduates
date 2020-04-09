@@ -38,7 +38,8 @@ function drawPicture(data) {
             let r = data[index++];
             let g = data[index++];
             let b = data[index++];
-            let string = "rgba(" + String(r) + ", " + String(g) + ", " + String(b) + ", 0.5)";
+            let a = data[index++];
+            let string = "rgba(" + String(r) + ", " + String(g) + ", " + String(b) + "," + String(a) + ")";
             svg.append("rect")
                .attr("width", 2)
                .attr("height", 2)

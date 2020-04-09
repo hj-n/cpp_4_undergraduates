@@ -33,8 +33,8 @@ function drawPicture(data) {
     svg.selectAll("rect").remove();
     let index = 0;
 
-    for(let i = 0; i < 250; i++) {
-        for(let j = 0; j < 300; j++) {
+    for(let i = 0; i < 300; i++) {
+        for(let j = 0; j < 250; j++) {
             let r = data[index++];
             let g = data[index++];
             let b = data[index++];
@@ -42,8 +42,8 @@ function drawPicture(data) {
             svg.append("rect")
                .attr("width", 2)
                .attr("height", 2)
-               .attr("x", i * 2)
-               .attr("y", j * 2)
+               .attr("x", j * 2)
+               .attr("y", i * 2)
                .style("fill", string);
         }
     }

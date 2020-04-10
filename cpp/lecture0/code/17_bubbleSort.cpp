@@ -7,7 +7,7 @@ int main() {
     /**
      * Problem 17
      * perform bubble sort
-     * INPUT: length of series, and the series
+     * INPUT: length of series (n < 1000), and the series
      * OUTPUT: sorted result of the series
      * ex) 6
            4 6 9 10 1 19

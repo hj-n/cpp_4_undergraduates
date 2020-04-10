@@ -10,18 +10,18 @@ int** arrayAllocator() {
     for(int i = 0; i < 300; i++) arr[i] = new int[250];
     for(int i = 0; i < 300; i++){
         for(int j = 0; j < 250; j++) 
-            arr[i][j] = 0;
+            arr[i][j] = 255;
     }
     return arr;
 
 }
 
-void pixelGenerator(int** r, int** g, int** b, int** a){
+void pixelGenerator(int** r, int** g, int** b){
     ofstream out("picture.txt");
 
     for(int i = 0; i < 300; i++) {
         for(int j = 0; j < 250; j++) {
-            out << r[i][j] << " " << g[i][j] << " " << b[i][j] << " " << a[i][j] << endl;
+            out << r[i][j] << " " << g[i][j] << " " << b[i][j] << " " << 1 << endl;
         }
     }
 

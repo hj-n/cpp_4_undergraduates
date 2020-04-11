@@ -6,8 +6,7 @@ using namespace std;
 
 int** r;
 int** g; 
-int** b; 
-float** a;
+int** b;
 
 int mixColor(int originalColor, int newColor, float newAlpha) {
     // TODO

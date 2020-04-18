@@ -1,8 +1,8 @@
 run: main.o helper.o
 	g++ -o program main.o helper.o
 
-main.o: main.cpp
-	g++ -c main.cpp
+main.o: main.answer.cpp
+	g++ -c main.answer.cpp
 
 helper.o: helper.cpp helper.h
 	g++ -c helper.cpp

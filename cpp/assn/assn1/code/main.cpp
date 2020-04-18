@@ -10,8 +10,6 @@ int** b;
 
 int mixColor(int originalColor, int newColor, float newAlpha) {
     // TODO
-    
-
     return 0;
 }
 
@@ -42,6 +40,7 @@ void addCircle(int cx, int cy, int r, string color) {
 
 
 
+
     return;
 }
 
@@ -63,7 +62,7 @@ int main() {
      * Able to use these 2D array
      * access (n, m)-th element by calling arr[n][m]
      * each array holds the r / g / b value of each pixel
-     * current value: 0 for every color & pixel
+     * current value: 255 for every color & pixel
      */
 
     // TODO

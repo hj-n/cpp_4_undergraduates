@@ -7,8 +7,8 @@ using namespace std;
 
 class Party {
 private:
-    string name;   //"together" or "integration"
-    bool isUser;
+    string name;   // "together" or "integration"
+    bool isUser;   // true if user, false if AI
 
 public:
     Party(string name, bool isUser);

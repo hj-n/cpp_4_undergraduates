@@ -17,7 +17,7 @@ string Party :: getName() {
 }
 
 
-void Party :: generateInput(int* P, int* M, int* C) {
+void Party :: generatePolicy(int* P, int* M, int* C) {
     // TODO
 
 

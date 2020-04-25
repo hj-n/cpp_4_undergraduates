@@ -33,6 +33,8 @@ int main() {
     cout << "Each week, you can check the status and select the week's policy." << endl;
     cout << "Good Luck!!" << endl;
 
+    Election* election = new Election();
+
     // TODO
   
 

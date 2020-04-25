@@ -7,7 +7,7 @@ using namespace std;
 
 class District {
 private:
-    string name;
+    string name; // name of the district
     string province;        
     // Seoul, Busan, Deagu, Incheon, Gwangju, Deajeon, Ulsan, Sejong, Kyungki, Kangwon, Chungcheong, Jeolla, Kyungsang, Jeju 
     string spectrum;        // progressive, moderate, conservative

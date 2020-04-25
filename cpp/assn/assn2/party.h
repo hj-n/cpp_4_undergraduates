@@ -13,7 +13,7 @@ private:
 public:
     Party(string name, bool isUser);
     string getName();
-    void generateInput(int* P, int* M, int* C);
+    void generatePolicy(int* P, int* M, int* C);
 
 };
 

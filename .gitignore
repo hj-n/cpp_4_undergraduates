@@ -8,3 +8,4 @@ test.cpp
 *.vscode/
 .vscode/
 *setting.json
+*.icloud

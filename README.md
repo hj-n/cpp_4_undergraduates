@@ -30,5 +30,5 @@
     - Shell & Shell scripting
     - Data wrangling
     - Debugging & Profiling
-
+- study graph will be added sonn!!
 

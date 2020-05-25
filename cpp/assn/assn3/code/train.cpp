@@ -16,11 +16,6 @@ double loss_function(double* delta) {
     return 0;
 }
 
-void loss_function_backprop(double* result, int label_num, double* delta) {
-    // TODO
-
-}
-
 int main() {
     random_init();
 
@@ -71,7 +66,10 @@ int main() {
         }
         for (int j = 0; j < EPOCH; j++) {
             double* result = hidden_output.forward(input_hidden.forward(input));
-            loss_function_backprop(result, label_num, delta);
+            for(int k = 0; k < OUTPUT_NUM; k++) {
+                double expected = (k == label_num) ? 1.0 : 0.0;
+                delta[k] = -(expected - result[k]);
+            };
             if(j==0) loss_sum += loss_function(delta);
             //cout << endl;
             input_hidden.backprop(hidden_output.backprop(delta));

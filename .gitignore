@@ -2,6 +2,7 @@ form.pptx
 *.pptx
 a.out
 *.answer.cpp
+*.answer/
 test.cpp
 *.o
 *program

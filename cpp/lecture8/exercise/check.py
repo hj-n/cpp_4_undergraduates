@@ -1,8 +1,12 @@
 import os;
 
-# write down your compiler / output
+#####################################
+# write down your compiler / output #
+#####################################
 compiler = "g++"
 output = "./a.out"
+#####################################
+#####################################
 
 cpp_files = ["v1", "v2", "v3", "v4", "v5", "v6",
              "s1", "s2", "s3", "s4",

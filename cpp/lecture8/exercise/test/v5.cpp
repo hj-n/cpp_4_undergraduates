@@ -2,11 +2,11 @@
 
 using namespace std;
 
-#include <vector>
+#include "../src/tVector.h"
 #include <string>
 
 int main() {
-    vector<string> v;
+    tVector<string> v;
     v.push_back("a");
     v.push_back("ab");
     v.push_back("abc");

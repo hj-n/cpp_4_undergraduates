@@ -2,15 +2,15 @@
 
 using namespace std;
 
-#include <stack>
+#include "../src/tVector.h"
 
 int main() {
-    stack<int> s;
+    tVector<int> v;
     for(int i = 0; i < 1000; i++) {
-        s.push(i);
+        v.push_back(i);
     }
     for(int i = 0; i < 1000; i++) {
-        cout << s.top() << endl;
-        s.pop();
+        cout << v.back() << endl;
+        v.pop_back();
     }
 }

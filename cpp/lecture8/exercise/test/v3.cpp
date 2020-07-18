@@ -2,10 +2,10 @@
 
 using namespace std;
 
-#include <vector>
+#include "../src/tVector.h"
 
 int main() {
-    vector<int> v;
+    tVector<int> v;
     cout << v.empty() << endl;
     cout << v.size() << endl;
     for(int i = 0; i < 10; i++) {

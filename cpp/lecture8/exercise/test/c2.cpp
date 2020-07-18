@@ -2,13 +2,13 @@
 
 using namespace std;
 
-#include <vector>
-#include <stack>
+#include "../src/tVector.h"
+#include "../src/tStack.h"
 #include <string>
 
 int main() {
-    vector<string> v;
-    stack<string> s;
+    tVector<string> v;
+    tStack<string> s;
     v.push_back("a");
     v.push_back("ab");
     v.push_back("abc");

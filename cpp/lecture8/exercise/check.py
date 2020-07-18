@@ -9,7 +9,7 @@ cpp_files = ["v1", "v2", "v3", "v4", "v5", "v6",
              "c1", "c2"]
 
 for file in cpp_files:
-    file_name = "./code/" + file + ".cpp"
+    file_name = "./test/" + file + ".cpp"
     os.system(compiler + " " + file_name)
     result_raw = os.popen(output)
     result = result_raw.read()

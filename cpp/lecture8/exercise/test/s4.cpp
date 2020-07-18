@@ -2,11 +2,11 @@
 
 using namespace std;
 
-#include <stack>
+#include "../src/tStack.h"
 #include <string>
 
 int main() {
-    stack<string> s;
+    tStack<string> s;
     s.push("a");
     cout << s.top() << endl;
     s.push("ab");

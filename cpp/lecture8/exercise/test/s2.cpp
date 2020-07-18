@@ -2,10 +2,10 @@
 
 using namespace std;
 
-#include <stack>
+#include "../src/tStack.h"
 
 int main() {
-    stack<int> s;
+    tStack<int> s;
     for(int i = 0; i < 2000; i++) {
         s.push(i);
     }

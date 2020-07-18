@@ -2,12 +2,12 @@
 
 using namespace std;
 
-#include <vector>
-#include <stack>
+#include "../src/tVector.h"
+#include "../src/tStack.h"
 
 int main() {
-    vector<int> v;
-    stack<int> s;
+    tVector<int> v;
+    tStack<int> s;
     for(int i = 0; i < 1000; i++) {
         v.push_back(i);
     }

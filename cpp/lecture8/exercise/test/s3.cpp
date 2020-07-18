@@ -2,10 +2,10 @@
 
 using namespace std;
 
-#include <stack>
+#include "../src/tStack.h"
 
 int main() {
-    stack<int> s;
+    tStack<int> s;
     cout << s.empty() << endl;
     cout << s.size() << endl;
     for(int i = 0; i < 20; i++) {

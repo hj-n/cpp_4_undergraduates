@@ -1,5 +1,5 @@
 template <typename T>
-class tVector {
+class tStack {
 
 
 };

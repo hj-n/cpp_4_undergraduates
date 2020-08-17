@@ -11,7 +11,7 @@ int main() {
             ***
             ****
             *****
-     * hint : use double for-satement and if-statement
+     * hint : use double for-loop and if-conditional statement
      */ 
 
     for(int i = 1; i <= 5; i++) {
